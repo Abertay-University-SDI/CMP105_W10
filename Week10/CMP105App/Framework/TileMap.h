@@ -35,7 +35,7 @@ protected:
 	std::vector<int> tileMap;
 	std::vector<GameObject> levelAssets;
 	sf::Texture texture;
-	sf::Vector2u mapSize;
+	sf::Vector2u mapDimensions;
 	sf::Vector2f position;
 };
 
